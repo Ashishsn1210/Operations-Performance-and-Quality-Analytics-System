@@ -120,4 +120,4 @@ Key Improvements
 This project demonstrates how manufacturing production data can be transformed into actionable operational insights.
 
 By combining performance monitoring with rejection analysis, the system allows manufacturing teams to move from
-Manual spreadsheet analysis → Visual data-driven decision making
+Manual spreadsheet analysis → Visual data-driven decision making.
