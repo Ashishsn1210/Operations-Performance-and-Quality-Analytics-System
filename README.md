@@ -35,7 +35,7 @@ Provides a high-level operational overview of production and rejection across fi
 Provides detailed analysis of rejection drivers, including parts, defect types, and tonnage impact.
 
 ## Dashboard Modules
-#### Module 1 — Operations Intelligence Dashboard
+### Module 1 — Operations Intelligence Dashboard
 The dashboard provides a management-level view of manufacturing performance.
 
 Key Metrics Tracked across all Firewall stages:
@@ -51,15 +51,15 @@ These metrics allow management to quickly evaluate - Overall production performa
 
 Purpose: To provide functional heads and managers with a quick snapshot of manufacturing performance during review meetings. This helps teams quickly identify which firewall stage requires attention.
 
-#### Dashboard Overview
+## Dashboard Overview
 ![Operations_Intelligence_Dashboard](https://github.com/Ashishsn1210/Manufacturing-Performance-and-Quality-Analytics-System/blob/686f9e57dec7636e1791d5791197a78aa42c37f4/Dashboard_Images/Operations%20Intelligence%20Dashboard.pdf)
 
-#### Module 2 — Quality Rejection Analytics Dashboard
+### Module 2 — Quality Rejection Analytics Dashboard
 This dashboard focuses on deep analysis of rejection drivers.
 
 Purpose: To identify high-impact rejection drivers so that quality teams can focus their root cause analysis on Critical defect types, High-rejection parts, and Phases contributing to major financial loss.
 
-#### Dashboard Overview
+## Dashboard Overview
 Firewall-1 Rejection Analysis
 The Firewall-1 dashboard analyzes rejection occurring at the F1 production stage, which represents the initial quality checkpoint in the manufacturing process. This dashboard helps identify defects introduced during the first stage of production.
 
