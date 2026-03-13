@@ -61,6 +61,7 @@ Purpose: To identify high-impact rejection drivers so that quality teams can foc
 
 #### Dashboard Overview
 Firewall-1 Rejection Analysis
+
 The Firewall-1 dashboard analyzes rejection occurring at the F1 production stage, which represents the initial quality checkpoint in the manufacturing process. This dashboard helps identify defects introduced during the first stage of production.
 
 This dashboard helps production and quality teams quickly identify:
@@ -71,6 +72,7 @@ This dashboard helps production and quality teams quickly identify:
 ![Firewall-1](https://github.com/Ashishsn1210/Manufacturing-Performance-and-Quality-Analytics-System/blob/3632de74ce20e5d5b1ddab902d3b132265a16a8c/Dashboard_Images/Quality_Rej_F1.png)
 
 Firewall-2 Rejection Analysis
+
 The Firewall-2 dashboard focuses on rejection occurring at the F2 production stage, which represents the intermediate inspection checkpoint in the manufacturing process. This stage often reflects defects that pass the first inspection but are detected during subsequent processing or machining operations.
 
 The Firewall 2 dashboard enables teams to:
@@ -81,6 +83,7 @@ The Firewall 2 dashboard enables teams to:
 ![Firewall-2](https://github.com/Ashishsn1210/Manufacturing-Performance-and-Quality-Analytics-System/blob/3632de74ce20e5d5b1ddab902d3b132265a16a8c/Dashboard_Images/Quality_Rej_F2.png)
 
 Final Inspection (FI) Rejection Analysis
+
 The Final Inspection dashboard analyzes rejection occurring during the final quality inspection stage before product dispatch.
 This stage is critical because defects detected here represent quality issues that were not identified in earlier firewall stages.
 
@@ -92,6 +95,7 @@ This dashboard helps teams:
 ![Final Inspection](https://github.com/Ashishsn1210/Manufacturing-Performance-and-Quality-Analytics-System/blob/3632de74ce20e5d5b1ddab902d3b132265a16a8c/Dashboard_Images/Quality_Rej_FI.png)
 
 Rejection Tonnage Analysis
+
 The Rejection Tonnage dashboard analyzes rejection based on material weight impact, rather than only quantity or financial value. In manufacturing environments where raw material costs are significant, tonnage-based analysis provides important insights into material loss due to rejected parts.
 
 ![Overall_Rej_Ton](https://github.com/Ashishsn1210/Manufacturing-Performance-and-Quality-Analytics-System/blob/3632de74ce20e5d5b1ddab902d3b132265a16a8c/Dashboard_Images/Overall_Rej_Ton.png)
