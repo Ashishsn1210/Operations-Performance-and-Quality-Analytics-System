@@ -7,7 +7,9 @@ The system combines two dashboards:
 1. Operations Performance Monitoring – High-level operational monitoring used by management.
 2. Quality Rejection Analytics – Detailed rejection analysis to identify root causes.
 
-Together, these dashboards provide both Operational performance monitoring and Root cause analysis of rejection
+Together, these dashboards provide both
+- Operational performance monitoring
+- Root cause analysis of rejection
 
 The dashboards were developed to help production teams, quality engineers, and functional heads quickly evaluate manufacturing performance and take data-driven decisions during review meetings.
 
@@ -26,7 +28,7 @@ This created several challenges:
 To address this problem, a two-layer manufacturing analytics system was developed using Looker Studio.
 
 The solution includes:
-### 1. Operarions Performance Monitoring Dashboard
+### 1. Operations Performance Monitoring Dashboard
 Provides a high-level operational overview of production and rejection across firewall stages.
 
 ### 2. Quality Rejection Analytics Dashboard
@@ -55,29 +57,43 @@ Purpose: To provide functional heads and managers with a quick snapshot of manuf
 #### Module 2 — Quality Rejection Analytics Dashboard
 This dashboard focuses on deep analysis of rejection drivers.
 
-Each phase dashboard includes the following KPIs:
-- Total Production
-- Rejection Value
-- Rejection Quantity
-- Rejection Rate %
-
-Purpose: To identify high-impact rejection drivers so that quality teams can focus their root cause analysis on Critical defect types, High-rejection parts, and Phases contributing to major financial loss
-
-Tonnage Rejection Analysis
-In addition to quantity and value analysis, the dashboard also analyzes rejection based on tonnage.
-This helps identify material loss caused by rejected parts, which is important for Raw material cost control, Production efficiency, and Waste reduction initiatives.
+Purpose: To identify high-impact rejection drivers so that quality teams can focus their root cause analysis on Critical defect types, High-rejection parts, and Phases contributing to major financial loss.
 
 #### Dashboard Overview
-Firewall-1 Analytics
+Firewall-1 Rejection Analysis
+The Firewall-1 dashboard analyzes rejection occurring at the F1 production stage, which represents the initial quality checkpoint in the manufacturing process. This dashboard helps identify defects introduced during the first stage of production.
+
+This dashboard helps production and quality teams quickly identify:
+- Parts with frequent rejection
+- Defects introduced during early production stages
+- Financial impact of early-stage quality issues
+
 ![Firewall-1](https://github.com/Ashishsn1210/Manufacturing-Performance-and-Quality-Analytics-System/blob/3632de74ce20e5d5b1ddab902d3b132265a16a8c/Dashboard_Images/Quality_Rej_F1.png)
 
-Firewall-2 Analytics
+Firewall-2 Rejection Analysis
+The Firewall-2 dashboard focuses on rejection occurring at the F2 production stage, which represents the intermediate inspection checkpoint in the manufacturing process. This stage often reflects defects that pass the first inspection but are detected during subsequent processing or machining operations.
+
+The Firewall 2 dashboard enables teams to:
+- Identify parts that fail during intermediate processing
+- Understand defect patterns emerging during machining or processing operations
+- Evaluate the financial impact of mid-stage production defects
+
 ![Firewall-2](https://github.com/Ashishsn1210/Manufacturing-Performance-and-Quality-Analytics-System/blob/3632de74ce20e5d5b1ddab902d3b132265a16a8c/Dashboard_Images/Quality_Rej_F2.png)
 
-Final Inspection Analytics
+Final Inspection (FI) Rejection Analysis
+The Final Inspection dashboard analyzes rejection occurring during the final quality inspection stage before product dispatch.
+This stage is critical because defects detected here represent quality issues that were not identified in earlier firewall stages.
+
+This dashboard helps teams:
+- Identify products failing during the final quality check
+- Evaluate defects escaping earlier inspection stages
+- Understand financial losses caused by late-stage rejection
+
 ![Final Inspection](https://github.com/Ashishsn1210/Manufacturing-Performance-and-Quality-Analytics-System/blob/3632de74ce20e5d5b1ddab902d3b132265a16a8c/Dashboard_Images/Quality_Rej_FI.png)
 
-Overall Rejection in Tonnage Analytics
+Rejection Tonnage Analysis
+The Rejection Tonnage dashboard analyzes rejection based on material weight impact, rather than only quantity or financial value. In manufacturing environments where raw material costs are significant, tonnage-based analysis provides important insights into material loss due to rejected parts.
+
 ![Overall_Rej_Ton](https://github.com/Ashishsn1210/Manufacturing-Performance-and-Quality-Analytics-System/blob/3632de74ce20e5d5b1ddab902d3b132265a16a8c/Dashboard_Images/Overall_Rej_Ton.png)
 
 ## Business Impact
