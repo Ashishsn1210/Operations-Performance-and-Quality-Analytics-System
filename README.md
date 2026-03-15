@@ -51,7 +51,7 @@ These metrics allow management to quickly evaluate - Overall production performa
 
 Purpose: To provide functional heads and managers with a quick snapshot of manufacturing performance during review meetings. This helps teams quickly identify which firewall stage requires attention.
 
-#### Dashboard Overview
+## Dashboard Overview
 ![Operations_Intelligence_Dashboard](https://github.com/Ashishsn1210/Manufacturing-Performance-and-Quality-Analytics-System/blob/686f9e57dec7636e1791d5791197a78aa42c37f4/Dashboard_Images/Operations%20Intelligence%20Dashboard.pdf)
 
 ### Module 2 — Quality Rejection Analytics Dashboard
